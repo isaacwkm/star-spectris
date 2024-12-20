@@ -105,7 +105,7 @@ class MainMenu extends Phaser.Scene {
         this.game.sound.stopAll();
         
         this.sound.play("bgMusicMain", {
-            volume: 0.5   // Background Music
+            volume: 0.1   // Background Music
         })
 
 
