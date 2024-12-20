@@ -97,6 +97,18 @@ class MainMenu extends Phaser.Scene {
         GameText.addControlInstructions(this);
         GameText.addInsertCoin(this, false);
 
+        //      // Audio
+        //
+        //
+        //
+
+        this.game.sound.stopAll();
+        
+        this.sound.play("bgMusicMain", {
+            volume: 0.5   // Background Music
+        })
+
+
 
         //      // Level Creation
         //

@@ -71,6 +71,7 @@ class GameConfig extends Phaser.Scene {
 
         // Sound assets
         this.load.setPath("assets/audio/sfx/");
+        this.load.audio("bgMusicMain", "AdhesiveWombatMusic.mp3");
         this.load.audio("playerLaserShoot", "laserSmall_000.ogg");
         this.load.audio("metalHit", "impactMetal_002.ogg");
         this.load.audio("boom", "explosionCrunch_000.ogg");
